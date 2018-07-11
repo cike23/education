@@ -5,6 +5,10 @@ package com.attech.core.exception;
  * Author: Aaron
  * Time: 2018/7/10 23:43.
  * Version: v1.0
+ *
+ * 基础异常类都继承自运行时异常类(RunntimeException)，尽可能把受检异常转化为非受检异常，更好的面向接口编程，提高代码的扩展性、稳定性。
+ *
+ * BaseException：添加了一个错误编码，其它自定义的异常应当继承该类。
  */
 public class BaseException extends RuntimeException {
 
