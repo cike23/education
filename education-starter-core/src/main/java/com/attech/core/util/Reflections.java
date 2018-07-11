@@ -106,7 +106,8 @@ public abstract class Reflections {
      * 改变private/protected的成员变量为public.
      */
     public static void makeAccessible(Field field) {
-        if (!Modifier.isPublic(field.getModifiers()) || !Modifier.isPublic(field.getDeclaringClass().getModifiers())) {
+        if (!Modifier.isPublic(field.getModifiers())
+                || !Modifier.isPublic(field.getDeclaringClass().getModifiers())) {
             field.setAccessible(true);
         }
     }

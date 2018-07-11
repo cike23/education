@@ -1,30 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f35a53d-ea29-40dd-8e67-072d01b4e43e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/base/BaseService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/base/Service.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/config/MyBatisConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/exception/UpdateFailedException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/util/Reflections.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_8.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_6_0_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_6_0_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_0_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_4_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_4_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_3_4_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_3_4_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_autoconfigure_1_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_autoconfigure_1_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_starter_1_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_starter_1_1_3.xml" />
+    <list default="true" id="0f35a53d-ea29-40dd-8e67-072d01b4e43e" name="Default" comment="Felection   commit&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/base/Mapper.java" afterPath="$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/base/Mapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/education-starter-core/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/education-starter-core/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/util/Reflections.java" afterPath="$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/util/Reflections.java" />
     </list>
     <ignored path="education.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Service.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Service.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/base/Service.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="57">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -74,8 +53,8 @@
       <file leaf-file-name="BaseService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/base/BaseService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+            <state relative-caret-position="247">
+              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#816#817#0" expanded="true" />
@@ -99,11 +78,33 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Reflections.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/util/Reflections.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="33" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Mapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/base/Mapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+            <state relative-caret-position="285">
+              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Result.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/base/Result.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -153,13 +154,13 @@
         <option value="$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/system/controller/UserController.java" />
         <option value="$PROJECT_DIR$/education-starter-core/src/main/resources/application-dev.properties" />
         <option value="$PROJECT_DIR$/education-starter-core/pom.xml" />
-        <option value="$PROJECT_DIR$/education-starter-core/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/config/MyBatisConfig.java" />
-        <option value="$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/util/Reflections.java" />
         <option value="$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/exception/UpdateFailedException.java" />
         <option value="$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/base/BaseService.java" />
         <option value="$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/base/Service.java" />
         <option value="$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/base/Mapper.java" />
+        <option value="$PROJECT_DIR$/education-starter-core/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/util/Reflections.java" />
       </list>
     </option>
   </component>
@@ -1116,7 +1117,7 @@
       <workItem from="1531233761967" duration="3988000" />
       <workItem from="1531237954969" duration="230000" />
       <workItem from="1531301759280" duration="7016000" />
-      <workItem from="1531320415136" duration="2311000" />
+      <workItem from="1531320415136" duration="2576000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/cike23/education&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;">
       <created>1531320450170</created>
@@ -1125,11 +1126,25 @@
       <option name="project" value="LOCAL" />
       <updated>1531320450170</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="定义基础Service   commit&#10;">
+      <created>1531322788745</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1531322788745</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改配置文件   commit&#10;">
+      <created>1531322818625</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1531322818625</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16130000" />
+    <option name="totallyTimeSpent" value="16395000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -1177,7 +1192,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge branch 'master' of https://github.com/cike23/education&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/cike23/education&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;" />
+    <MESSAGE value="定义基础Service   commit&#10;" />
+    <MESSAGE value="修改配置文件   commit&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改配置文件   commit&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1282,7 +1299,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/base/Result.java" />
     <entry file="file://$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/base/BaseEnum.java" />
     <entry file="file://$PROJECT_DIR$/education-starter-security/src/test/java/com/attech/AppTest.java" />
     <entry file="file://$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/cache/CacheUtils.java" />
@@ -1425,20 +1441,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/util/Reflections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#620#650#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#1933#1963#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/config/MyBatisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -1446,14 +1448,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/education-starter-core/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1532,18 +1526,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/education-starter-core/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/base/Mapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        <state relative-caret-position="285">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/base/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/base/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/base/BaseService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        <state relative-caret-position="247">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#816#817#0" expanded="true" />
@@ -1566,11 +1584,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/base/Service.java">
+    <entry file="file://$PROJECT_DIR$/education-starter-core/src/main/java/com/attech/core/util/Reflections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="304">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
