@@ -5,6 +5,8 @@ import tk.mybatis.mapper.common.ConditionMapper;
 import tk.mybatis.mapper.common.IdsMapper;
 import tk.mybatis.mapper.common.base.insert.InsertMapper;
 
+import java.util.List;
+
 /**
  * 基础Mapper
  *
@@ -14,5 +16,12 @@ import tk.mybatis.mapper.common.base.insert.InsertMapper;
  **/
 public interface Mapper<T> extends BaseMapper<T>, ConditionMapper<T>, IdsMapper<T>, InsertMapper<T>{
 
+    /**
+     * 批量插入，null的属性也会保存，不会使用数据库默认值
+     *
+     * @param recordList
+     * @return
+     */
+    List<T> insertList(List<T> recordList);
 
 }
