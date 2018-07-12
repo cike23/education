@@ -41,7 +41,7 @@ public class BaseDTO implements Serializable {
     /**
      * 数据版本号,每发生update则自增,用于实现乐观锁.
      */
-    private Long versionNumber;
+    private Long version;
 
     //
     // 下面是标准 WHO 字段
@@ -144,12 +144,12 @@ public class BaseDTO implements Serializable {
         return ToStringBuilder.reflectionToString(this, ToStringStyle.JSON_STYLE);
     }
 
-    public Long getVersionNumber() {
-        return versionNumber;
+    public Long getVersion() {
+        return version;
     }
 
-    public void setVersionNumber(Long versionNumber) {
-        this.versionNumber = versionNumber;
+    public void setVersionNumber(Long version) {
+        this.version = version;
     }
 
     public Long getCreateBy() {
