@@ -7,6 +7,8 @@ import com.attech.core.constants.Constants;
 import com.attech.core.system.dto.User;
 import com.attech.core.util.DateUtil;
 import com.attech.core.util.Results;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -25,6 +27,8 @@ import java.util.List;
 @RequestMapping("/sys/user")
 @RestController
 public class UserController extends BaseController {
+
+    private static final Logger  log = LoggerFactory.getLogger(UserController.class);
 
     private static List<User> userList = new ArrayList<>();
 
