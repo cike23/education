@@ -107,6 +107,23 @@ public abstract class BaseService<T> implements Service<T> {
         return recordList;
     }
 
+    /**
+     * 检查乐观锁<br>
+     * 更新失败时，抛出 UpdateFailedException 异常
+     *
+     *
+     * @param updateCount  update,delete 操作返回的值
+     * @param record  操作参数
+     */
+    protected void checkUpdate(int updateCount, Object record){
+        if(updateCount == 0 && record instanceof BaseDTO){
+            BaseDTO baseDTO = (BaseDTO) record;
+            if(baseDTO.getVersion() != null){
+                throw new UpdateFailedException();
+            }
+        }
+    }
+
     //
     // delete
     // ----------------------------------------------------------------------------------------------------
@@ -311,23 +328,5 @@ public abstract class BaseService<T> implements Service<T> {
     public int count(T record) {
         return mapper.selectCount(record);
     }
-
-    /**
-     * 检查乐观锁<br>
-     * 更新失败时，抛出 UpdateFailedException 异常
-     *
-     * @param updateCount update,delete 操作返回的值
-     * @param record 操作参数
-     */
-    protected void checkUpdate(int updateCount, Object record) {
-        if (updateCount == 0 && record instanceof BaseDTO) {
-            BaseDTO baseDTO = (BaseDTO) record;
-            if (baseDTO.getVersionNumber() != null) {
-                throw new UpdateFailedException();
-            }
-        }
-    }
-
-
 
 }

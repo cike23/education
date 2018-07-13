@@ -1,5 +1,7 @@
 package com.attech.core.config;
 
+import com.attech.core.plugins.VersionInterceptor;
+import org.apache.ibatis.plugin.Interceptor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -33,6 +35,15 @@ public class MyBatisConfig {
          */
         mapperScannerConfigurer.setBasePackage("**.attech.**.mapper");
         return mapperScannerConfigurer;
+    }
+
+    /**
+     * 添加乐观锁version处理插件
+     * @return
+     */
+    @Bean
+    public Interceptor versionInterceptor(){
+        return new VersionInterceptor();
     }
 
 }
