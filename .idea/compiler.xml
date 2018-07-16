@@ -22,18 +22,24 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="education-starter" />
+        <module name="education-starter-admin" />
         <module name="education-starter-cache" />
         <module name="education-starter-common" />
         <module name="education-starter-core" />
         <module name="education-starter-security" />
+        <module name="education-starter-swagger" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="education" target="1.5" />
-      <module name="education-starter-cache" target="1.5" />
-      <module name="education-starter-common" target="1.5" />
+      <module name="education" target="1.8" />
+      <module name="education-starter" target="1.8" />
+      <module name="education-starter-admin" target="1.7" />
+      <module name="education-starter-cache" target="1.8" />
+      <module name="education-starter-common" target="1.8" />
       <module name="education-starter-core" target="1.8" />
-      <module name="education-starter-security" target="1.5" />
+      <module name="education-starter-security" target="1.8" />
+      <module name="education-starter-swagger" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

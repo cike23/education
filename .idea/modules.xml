@@ -3,10 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/education.iml" filepath="$PROJECT_DIR$/education.iml" />
+      <module fileurl="file://$PROJECT_DIR$/education-starter/education-starter.iml" filepath="$PROJECT_DIR$/education-starter/education-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/education-starter-admin/education-starter-admin.iml" filepath="$PROJECT_DIR$/education-starter-admin/education-starter-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/education-starter-cache/education-starter-cache.iml" filepath="$PROJECT_DIR$/education-starter-cache/education-starter-cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/education-starter-common/education-starter-common.iml" filepath="$PROJECT_DIR$/education-starter-common/education-starter-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/education-starter-core/education-starter-core.iml" filepath="$PROJECT_DIR$/education-starter-core/education-starter-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/education-starter-security/education-starter-security.iml" filepath="$PROJECT_DIR$/education-starter-security/education-starter-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/education-starter-swagger/education-starter-swagger.iml" filepath="$PROJECT_DIR$/education-starter-swagger/education-starter-swagger.iml" />
     </modules>
   </component>
 </project>
