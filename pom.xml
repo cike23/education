@@ -6,13 +6,13 @@
     <artifactId>education</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>education-starter-cache</module>
         <module>education-starter-core</module>
         <module>education-starter-security</module>
         <module>education-starter-common</module>
         <module>education-starter-swagger</module>
         <module>education-starter-admin</module>
         <module>education-starter</module>
+        <module>education-starter-cache</module>
     </modules>
     <packaging>pom</packaging>
 

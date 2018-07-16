@@ -35,7 +35,7 @@
       <module name="education" target="1.8" />
       <module name="education-starter" target="1.8" />
       <module name="education-starter-admin" target="1.7" />
-      <module name="education-starter-cache" target="1.8" />
+      <module name="education-starter-cache" target="1.7" />
       <module name="education-starter-common" target="1.8" />
       <module name="education-starter-core" target="1.8" />
       <module name="education-starter-security" target="1.8" />

@@ -69,6 +69,11 @@
             <artifactId>spring-boot-devtools</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+
         <!-- ******************************* 常用依赖库 ********************************** -->
         <!-- 针对开发IO流功能的工具类库 -->
         <dependency>
